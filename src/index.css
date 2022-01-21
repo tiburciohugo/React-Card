@@ -1,13 +1,154 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #23252c;
+  width: 550px;
+  height: 868;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  overflow: hidden;
+  width: 317px;
+  border-radius: 10px;
+}
+
+.image {
+  display: flex;
+  flex: 1;
+  width: 317px;
+  height: 317px;
+}
+
+.main {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  background-color: #1a1b21;
+  width: 317px;
+  height: 399px;
+}
+
+.name {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 1.7em;
+}
+
+.dev {
+  margin: 3px;
+  font-size: 13px;
+  line-height: 15px;
+  color: #f3bf99;
+}
+
+a {
+  text-decoration: none;
+}
+
+#website {
+  font-size: 12px;
+  line-height: 150%;  
+}
+
+#website > a {
+  color: #F5F5F5;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  font-size: 1.5em;
+}
+
+#email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 34px;
+  margin: 5px;
+  background-color: #ffffff;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+#linkedin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 34px;
+  margin: 5px;
+  color: #fff;
+  background-color: #5093e2;
+  border: none;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+#email > p,
+#linkedin > p {
+  margin: 8px;
+}
+
+.info {
+  color: #f5f5f5;
+  text-align: left;
+  padding: 10px;
+}
+
+.info > h3 {
+  margin: 5px;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.info > p {
+  margin: 5px;
+  font-size: 12px;
+  line-height: 150%;
+  color: #dcdcdc;
+}
+
+footer {
+  display: flex;
+  width: 317px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  background-color: #161619;
+}
+
+footer > a {
+  margin: 10px;
+  color: #918e9b;
+}
+
+.icons {
+  font-size: 25px;
 }
