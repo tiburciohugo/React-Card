@@ -15,10 +15,14 @@ export default function Main() {
       </div>
       <div className="buttons">
         <button id="email">
-          <i class="fas fa-envelope"></i><p>Email</p>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:hugotiburcio@outlook.com" target="_blank" rel="noreferrer">
+            <p>Email</p>
+          </a>
         </button>
         <button id="linkedin">
-          <i class="fab fa-linkedin"></i><p>LinkedIn</p>
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/hugotiburcio/" target="_blank" rel="noreferrer"><p>LinkedIn</p></a>
         </button>
       </div>
       <div className="info">
@@ -26,13 +30,13 @@ export default function Main() {
         <p>
           Id detraxit menandri percipitur pri, illud insolens volutpat at duo,
           et eos dicta habemus? Pri eripuit utroque imperdiet id. Mea et
-          hendrerit elaboraret eloquentiam, ad agam quot inermis pro. 
+          hendrerit elaboraret eloquentiam, ad agam quot inermis pro.
         </p>
         <h3>Interests</h3>
         <p>
           Id detraxit menandri percipitur pri, illud insolens volutpat at duo,
           et eos dicta habemus? Pri eripuit utroque imperdiet id. Mea et
-          hendrerit elaboraret eloquentiam, ad agam quot inermis pro. 
+          hendrerit elaboraret eloquentiam, ad agam quot inermis pro.
         </p>
       </div>
     </main>
