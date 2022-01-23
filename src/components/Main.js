@@ -1,15 +1,15 @@
 import React from "react";
 import "./Main.css";
 
-export default function Main() {
+export default function Main(props) {
   return (
     <main className="main">
       <div>
-        <h2 className="name">Hugo Tiburcio</h2>
+        <h2 className="name">{props.name}</h2>
         <h4 className="dev">Frontend Developer</h4>
         <p id="website">
           <a href="#index.html" target="_blank">
-            hugotiburcio.website
+            {props.website}
           </a>
         </p>
       </div>

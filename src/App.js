@@ -7,8 +7,13 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Card>
-      <Image />
-      <Main />
+      <Image 
+        imgSrc="https://i.imgur.com/qbo75P1.jpg" 
+      />
+      <Main 
+        name="Hugo Tiburcio" 
+        website="hugotiburcio.website"  
+      />
       <Footer />
     </Card>
   );

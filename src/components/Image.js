@@ -1,10 +1,10 @@
 import React from "react";
 import "./Image.css";
 
-export default function Image() {
+export default function Image(props) {
   return (
     <img
-      src="https://i.imgur.com/qbo75P1.jpg"
+      src={props.imgSrc}
       className="image"
       alt="profile"
     />
